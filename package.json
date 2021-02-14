@@ -1,0 +1,32 @@
+{
+    "name": "studio-twenti-uno-light",
+    "displayName": "Studio Twenti Uno LIGHT",
+    "description": "A theme inspired by the minimalistic and approachable color palette of 'studio twenti uno'",
+    "version": "0.0.1",
+    "publisher": "StudioTwentiUno",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "icon": "icons/icon.png",
+    "author": {
+        "name": "diego gallovich - studio twenti uno",
+        "email": "diego@studiotwentiuno.com",
+        "url": "https://linkedin.com/in/dieguiviti"
+    },
+    "repository": {
+        "url": "https://github.com/studio-twenti-uno/studio-twenti-uno-light-vscode.git",
+        "type": "git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "studio twenti uno LIGHT",
+                "uiTheme": "vs",
+                "path": "./themes/studio twenti uno LIGHT-color-theme.json"
+            }
+        ]
+    }
+}
